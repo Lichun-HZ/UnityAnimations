@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAnimations.CSharp", "UnityAnimations.CSharp.csproj", "{212DC95D-4A32-3C8E-FA8A-0913BC58A1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAnimations.CSharp.Editor", "UnityAnimations.CSharp.Editor.csproj", "{C0AC2A4F-331C-BDA7-B4ED-E916BD2A5404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{212DC95D-4A32-3C8E-FA8A-0913BC58A1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212DC95D-4A32-3C8E-FA8A-0913BC58A1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212DC95D-4A32-3C8E-FA8A-0913BC58A1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212DC95D-4A32-3C8E-FA8A-0913BC58A1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AC2A4F-331C-BDA7-B4ED-E916BD2A5404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AC2A4F-331C-BDA7-B4ED-E916BD2A5404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AC2A4F-331C-BDA7-B4ED-E916BD2A5404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AC2A4F-331C-BDA7-B4ED-E916BD2A5404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
