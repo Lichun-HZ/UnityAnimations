@@ -151,6 +151,14 @@
     <Compile Include="Assets\Cinemachine\Blackboard\Editor\ReactorEditor.cs" />
     <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\Graph\Graph.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\Graph\Layouts\IGraphLayout.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\Graph\Layouts\ReingoldTilford.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\Graph\Node.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\Graph\Renderer\DefaultGraphRenderer.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\Graph\Renderer\IGraphRenderer.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\PlayableGraphVisualizer.cs" />
+    <Compile Include="Assets\Editor\GraphVisualizer\PlayableGraphVisualizerWindow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

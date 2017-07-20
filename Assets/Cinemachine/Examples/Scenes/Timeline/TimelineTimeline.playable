@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Name: TimelineTimeline
   m_EditorClassIdentifier: 
   m_Id: 0
-  m_NextId: 6
+  m_NextId: 7
   m_Tracks:
   - {fileID: 114778856391876590}
   m_FixedDuration: 0
   m_EditorSettings:
     fps: 60
-    timeAreaShownRange: {x: -0.06634414, y: 7.4119673}
-  m_ExtrapolationMode: 1
   m_UpdateMode: 0
   m_ParameterName: 
   m_DurationMode: 0
@@ -251,6 +249,20 @@ MonoBehaviour:
   VirtualCamera:
     exposedName: 21cb872311c90434ca75564c037b0b9f
     defaultValue: {fileID: 0}
+--- !u!114 &114498596784939796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
+  m_Name: CinemachineShot
+  m_EditorClassIdentifier: 
+  VirtualCamera:
+    exposedName: 
+    defaultValue: {fileID: 0}
 --- !u!114 &114555325533436570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -295,14 +307,11 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_ShowInlineCurves: 0
   m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
-  m_Collapsed: 1
   m_Parent: {fileID: 11400000}
   m_Children: []
-  m_MediaType: 3
   m_Clips:
   - m_Start: 0
     m_ClipIn: 0
@@ -364,14 +373,10 @@ MonoBehaviour:
     m_AnimationCurves: {fileID: 0}
     m_ID: 10792
     m_Recordable: 0
-    m_NestedAsset: 0
-    m_NestedOutputIndex: 0
     m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_Selected: 0
-    m_InlineCurvesSelected: 0
     m_DisplayName: Shot A
   - m_Start: 1.344548700377345
     m_ClipIn: 0
@@ -409,14 +414,10 @@ MonoBehaviour:
     m_AnimationCurves: {fileID: 0}
     m_ID: 10793
     m_Recordable: 0
-    m_NestedAsset: 0
-    m_NestedOutputIndex: 0
     m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_Selected: 0
-    m_InlineCurvesSelected: 0
     m_DisplayName: Shot B
   - m_Start: 2.5
     m_ClipIn: 0
@@ -466,14 +467,10 @@ MonoBehaviour:
     m_AnimationCurves: {fileID: 0}
     m_ID: 10794
     m_Recordable: 0
-    m_NestedAsset: 0
-    m_NestedOutputIndex: 0
     m_PostExtrapolationMode: 0
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_Selected: 0
-    m_InlineCurvesSelected: 0
     m_DisplayName: Shot C
 --- !u!114 &114826663218426040
 MonoBehaviour:
