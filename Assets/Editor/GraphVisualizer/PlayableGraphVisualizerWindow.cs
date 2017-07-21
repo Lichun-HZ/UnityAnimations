@@ -137,6 +137,20 @@ public class PlayableGraphVisualizerWindow : EditorWindow, IHasCustomMenu
                     }
                 }
             }
+
+            IList<PlayableBehaviourSample> myAnimators = FindObjectsOfType<PlayableBehaviourSample>();
+            if (myAnimators != null)
+            {
+                foreach (var animator in myAnimators)
+                {
+                    if (animator.m_Graph.IsValid())
+                    {
+                        info.name = animator.name;
+                        info.graph = animator.m_Graph;
+                        graphInfos.Add(info);
+                    }
+                }
+            }
         }
 
         if (GraphVisualizerClient.GetGraphs() != null)
